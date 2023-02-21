@@ -1,0 +1,279 @@
+/* Write your CSS here */
+.bgContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 50vh;
+}
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 73%;
+}
+.imageContainer {
+  align-self: flex-end;
+}
+
+.form {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.hr {
+  background-color: #cbd2d9;
+  height: 3px;
+  width: 73%;
+  margin-top: 15px;
+}
+.head {
+  color: #1e293b;
+  font-size: 50px;
+  font-family: 'Roboto';
+}
+.para {
+  color: #475569;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.inputName {
+  width: 280px;
+  height: 30px;
+  box-shadow: 0 4px 16px 0 #cdd2d9;
+  border: 1px solid #cbd2d9;
+  padding-left: 10px;
+  color: black;
+  font-weight: 500;
+  font-family: 'Roboto';
+  outline: none;
+}
+.textarea {
+  box-shadow: 0 4px 16px 0 #cdd2d9;
+  border: 1px solid #cbd2d9;
+  padding-left: 10px;
+  color: black;
+  font-weight: 500;
+  font-family: 'Roboto';
+  outline: none;
+}
+.button {
+  background-color: #0284c7;
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border: 0px solid white;
+  height: 30px;
+  width: 120px;
+  border-radius: 3px;
+}
+.image {
+  width: 400px;
+}
+.number {
+  background-color: #0284c7;
+  color: white;
+  border-radius: 2px;
+  padding: 3px;
+  width: 20px;
+  margin-right: 3px;
+  text-align: center;
+}
+.commentHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 34%;
+}
+.list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.imageContainer1 {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .bgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+  }
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .image {
+    width: 250px;
+  }
+  .imageContainer1 {
+    display: contents;
+  }
+  .imageContainer {
+    display: none;
+  }
+  .button {
+    margin-bottom: 10px;
+  }
+  .commentHead {
+    margin-left: 35px;
+  }
+}
+
+/* .bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 50vh;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 73%;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 50px;
+  font-family: 'Roboto';
+}
+
+.image-container {
+  align-self: flex-end;
+}
+
+.image {
+  width: 400px;
+}
+
+.description {
+  color: #475569;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.form {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.input-name {
+  width: 280px;
+  height: 30px;
+  box-shadow: 0 4px 16px 0 #cbd2d9;
+  border: 1px solid #cbd2d9;
+  padding-left: 10px;
+  color: black;
+  font-weight: 500;
+  font-family: 'Roboto';
+  outline: none;
+}
+
+.text-area {
+  box-shadow: 0 4px 16px 0 #cbd2d9;
+  border: 1px solid #cbd2d9;
+  padding-left: 10px;
+  color: black;
+  font-weight: 500;
+  font-family: 'Roboto';
+  outline: none;
+}
+
+.comment-button {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border: 0px solid #ffffff;
+  height: 30px;
+  width: 120px;
+  border-radius: 3px;
+}
+
+.image-container1 {
+  display: none;
+}
+
+.hr {
+  background-color: #cbd2d9;
+  height: 3px;
+  width: 73%;
+  margin-top: 15px;
+}
+
+.comment-head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 34%;
+}
+
+.count {
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 2px;
+  padding: 3px;
+  width: 20px;
+  margin-right: 3px;
+  text-align: center;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .image {
+    width: 250px;
+  }
+
+  .image-container1 {
+    display: contents;
+  }
+
+  .image-container {
+    display: none;
+  }
+
+  .comment-button {
+    margin-bottom: 10px;
+  }
+
+  .comment-head-container {
+    margin-left: 35px;
+  }
+}  */

@@ -95,9 +95,7 @@
   padding: 0px;
   margin: 0px;
 }
-.imageContainer1 {
-  display: none;
-}
+
 @media screen and (max-width: 768px) {
   .bgContainer {
     display: flex;
@@ -115,12 +113,7 @@
   .image {
     width: 250px;
   }
-  .imageContainer1 {
-    display: contents;
-  }
-  .imageContainer {
-    display: none;
-  }
+
   .button {
     margin-bottom: 10px;
   }

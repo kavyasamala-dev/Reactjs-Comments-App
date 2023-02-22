@@ -76,13 +76,6 @@ class Comments extends Component {
               <div className="headContainer">
                 <h1 className="head">Comments</h1>
               </div>
-              <div className="imageContainer1">
-                <img
-                  src="https://assets.ccbp.in/frontend/react-js/comments-app/comments-img.png"
-                  alt="comments"
-                  className="image"
-                />
-              </div>
               <div className="paraCont">
                 <p className="para">Say something about 4.0 Technologies</p>
                 <form className="form" onSubmit={this.submitPage}>
@@ -111,7 +104,7 @@ class Comments extends Component {
               <img
                 src="https://assets.ccbp.in/frontend/react-js/comments-app/comments-img.png"
                 className="image"
-                alt="comment"
+                alt="comments"
               />
             </div>
           </div>
